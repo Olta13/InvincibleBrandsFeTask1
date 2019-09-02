@@ -1,0 +1,92 @@
+/*
+Theme Name: storefront child
+Theme URL: https://wordpress.org/themes/storefront/
+Description: storefront child
+Author: Automattic
+Author URL: https://wordpress.org/themes/author/automattic/
+Template: storefront
+Version: 2.5.3
+Text Domain: storefront-child
+*/
+
+/** Custom newsletter styles */
+.newsletter-container {
+	max-width: 340px;
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: #068AE3;
+	color: #fff;
+	text-align: center;
+	font-family: arial, sans-serif;
+}
+.newsletter-container h2 {
+	letter-spacing: 1.5px;
+	color:#fff;
+}
+.newsletter-container p {
+	color: #a6e3ff;
+	line-height: 1.4;
+}
+
+.newsletter-container input {
+	display: block;
+	width: 100%;
+	border-radius: 3px;
+	border: none;
+	font-size:18px;
+	padding:18px;
+	box-sizing: border-box;
+	margin-top: 35px;
+}
+
+.newsletter-container button {
+	width: 100%;
+	margin-top: 20px;
+	border: none;
+	border-radius: 3px;
+	font-size: 18px;
+	padding: 18px;
+	background-color: #333;
+	color: #fff;
+}
+
+/* compact version */
+.newsletter-container.layout-compact {
+	overflow: hidden;
+	max-width: none;
+	background-color:transparent;
+}
+
+.newsletter-container.layout-compact h2 {
+	font-size: 18px;
+	text-align: left;
+}
+
+.newsletter-container.layout-compact p {
+	font-size: 16px;
+	text-align: left;
+}
+
+.newsletter-container.layout-compact input,
+.newsletter-container.layout-compact button {
+	display: inline-block;
+	float: left;
+	padding:10px;
+}
+.newsletter-container.layout-compact input {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	width: 65%;
+}
+
+.newsletter-container.layout-compact button {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	width: 35%;
+}
+
+.newsletter-container.layout-compact input,
+.newsletter-container.layout-compact button {
+	margin-top: 0;
+	font-size: 14px;
+}
